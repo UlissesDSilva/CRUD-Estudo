@@ -5,9 +5,11 @@ export default (props) => {
 
   return(
     <>
-      <Header />
-      <Main>
-        Conteúdo
+      <Header {...props}/>
+      <Main className="container-fluid">
+        <div className="p-3 mt-3 main">
+          {props.children}
+        </div>
       </Main>
     </>
   )

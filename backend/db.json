@@ -1,11 +1,14 @@
 {
-  "users": [{
-    "id": 1,
-    "name": "Mirella Rangel",
-    "email": "mrangel@gmail.com" 
-  }, {
-    "id": 1,
-    "name": "Ulisses D Silva",
-    "email": "udsilva@gmail.com"
-  }]
+  "users": [
+    {
+      "id": 2,
+      "name": "Ulisses D Silva",
+      "email": "udsilva@gmail.com"
+    },
+    {
+      "name": "Mirella",
+      "email": "mirela@email.com",
+      "id": 14
+    }
+  ]
 }

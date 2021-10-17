@@ -4,7 +4,10 @@ export default (props) => {
 
   return(
     <Footer>
-      Rodapé
+      <span>
+        Desenvolvido por
+        <strong><span className="text-info"> S</span>et<span className="text-info">S</span>ail</strong>
+      </span>
     </Footer>
   )
 }
